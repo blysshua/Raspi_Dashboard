@@ -7,3 +7,8 @@ I created a dashboard in bash to display current active/ inactive services, conn
 Tmux is used to split the screens as I am using a headless pi OS. The active.sh script is to refresh every 1 minute for up to date status on the services and to monitor logged in devices for security.
 
 I do plan on adding more services and editing the visuals of the dashboard in the future
+
+
+
+https://github.com/user-attachments/assets/21cb38c2-ebfc-4f90-86d4-589861bd3e37
+
