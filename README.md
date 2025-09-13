@@ -10,5 +10,9 @@ I do plan on adding more services and editing the visuals of the dashboard in th
 
 
 
-https://github.com/user-attachments/assets/21cb38c2-ebfc-4f90-86d4-589861bd3e37
+
+https://github.com/user-attachments/assets/88fee822-49f3-4d48-8506-14905178af29
+
+
+
 
