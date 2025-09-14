@@ -4,28 +4,30 @@ while true; do
     clear
     cat ~/dashboard/dash.txt
     echo ""
+    echo "╔═════ Neofetch ═════════════════════════════════════════════"
     neofetch
 
-    echo " ^u^t ^u^p ^u^p ^u^p ^u^p ^u^p Services  ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p"
-    echo -n " ^u^q [SSH]     : "
+    echo "╔═════ Services ═════════════════════════════════════════════"
+    echo -n " [SSH]     : "
     systemctl is-active ssh
-    echo " ^u^q"
+#    echo ""
 
-    echo -n " ^u^q [Pi-hole] : "
+    echo -n " [Pi-hole] : "
     systemctl is-active pihole-FTL
-    echo " ^u^q"
+#    echo ""
 
-    echo -n " ^u^q [UFW]     : "
+    echo -n " [UFW]     : "
     sudo ufw status | head -n 1
-    echo " ^u^z ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p ^u^p"
-
-    echo "Logged in users:"
-    who
     echo ""
 
-    echo "Sessions:"
+    echo "╔═════ Connected Devices + Sessions: ════════════════════════"
+#    who
+#    echo ""
     w
-    echo ""
+#    echo "╔═════ Sessions: ═══════════════════════════════════════════"
+#    w
+#    echo ""
 
-    sleep 60
+#    sleep 10
+    sleep 30
 done
