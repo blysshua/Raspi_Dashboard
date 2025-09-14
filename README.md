@@ -16,5 +16,6 @@ https://github.com/user-attachments/assets/88fee822-49f3-4d48-8506-14905178af29
 
 
 second design:
+I got rid of the messiness of the first design and added ifconfig - a CLI alternative to wireshark for network monitoring.
+<img width="1440" height="900" alt="db2" src="https://github.com/user-attachments/assets/d4d220e2-940e-43bd-b1b7-0b9014fdbc52" />
 
-<img width="1440" height="900" alt="db2" src="https://github.com/user-attachments/assets/efb03d2c-e473-4d4d-8cc2-f639ddde3de4" />
