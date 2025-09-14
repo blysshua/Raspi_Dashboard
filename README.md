@@ -15,4 +15,6 @@ https://github.com/user-attachments/assets/88fee822-49f3-4d48-8506-14905178af29
 
 
 
+second design:
 
+<img width="1440" height="900" alt="db2" src="https://github.com/user-attachments/assets/efb03d2c-e473-4d4d-8cc2-f639ddde3de4" />
